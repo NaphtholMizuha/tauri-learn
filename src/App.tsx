@@ -2,15 +2,23 @@ import * as React from "react"
 import {
   ChakraProvider,
   Box,
-  Text,
+  Text, Flex,
   Link,
   VStack,
   Code,
   Grid,
   theme,
+  Button,
+  HStack,
+  Spacer,
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
+import MyButton from "./components/MyButton"
+import MetroIcon from "./components/MetroIcon"
+import MetroPathShower from "./components/MetroPathShower/MetroPathShower"
+import LineIcon from "./components/LineIcon"
+import mode from "./sample.json"
 
 export const App = () => (
   <ChakraProvider theme={theme}>
@@ -31,6 +39,9 @@ export const App = () => (
           >
             Learn Chakra
           </Link>
+          <MyButton/>
+          <MetroPathShower path={mode}/>
+          <LineIcon lineNum="THP1" color="#CD5228" isTextWhile />
         </VStack>
       </Grid>
     </Box>

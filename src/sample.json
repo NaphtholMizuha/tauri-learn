@@ -1,0 +1,54 @@
+{
+    "stops": [
+        {
+            "lineNum": "3",
+            "stopNum": 5,
+            "stopName": "珠江新城",
+            "color": "#eca154",
+            "isTextWhite": false,
+            "isTransfer": true
+        },
+        {
+            "lineNum": "5",
+            "stopNum": 17,
+            "stopName": "车陂南",
+            "color": "#c5003e",
+            "isTextWhite": true,
+            "isTransfer": true
+        },
+        {
+            "lineNum": "4",
+            "stopNum": 6,
+            "stopName": "大学城北",
+            "color": "#00843d",
+            "isTextWhite": true,
+            "isTransfer": false
+        }
+    ],
+    "directions": [
+        {
+            "lineNum": "3",
+            "lineName": "三号线",
+            "terminal": "番禺广场",
+            "color": "#eca154",
+            "isTextWhite": false,
+            "stops": 6
+        },
+        {
+            "lineNum": "5",
+            "lineName": "五号线",
+            "terminal": "文冲",
+            "color": "#c5003e",
+            "isTextWhite": true,
+            "stops": 7
+        },
+        {
+            "lineNum": "4",
+            "lineName": "四号线",
+            "terminal": "南沙客运港",
+            "color": "#00843d",
+            "isTextWhite": true,
+            "stops": 4
+        }
+    ]
+}
