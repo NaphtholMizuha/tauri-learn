@@ -7,7 +7,7 @@ export default function(props: MetroDirection) {
         <HStack>
             <Text>乘坐</Text>
             <LineIcon lineNum={props.lineNum} color={props.color} isTextWhile={props.isTextWhite} />
-            <Text>{props.lineName} {props.terminal}方向 {props.stops} 站。</Text>
+            <Text>{props.lineName} {props.terminal}方向 {props.passbyStops} 站。</Text>
         </HStack>
     )
 }

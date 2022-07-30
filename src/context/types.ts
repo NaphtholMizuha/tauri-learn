@@ -13,7 +13,7 @@ type MetroDirection = {
     terminal: string,
     color: string,
     isTextWhite: boolean,
-    stops: number,
+    passbyStops: number,
 }
 
 type MetroPath = {

@@ -32,7 +32,7 @@
             "terminal": "番禺广场",
             "color": "#eca154",
             "isTextWhite": false,
-            "stops": 6
+            "passbyStops": 6
         },
         {
             "lineNum": "5",
@@ -40,7 +40,7 @@
             "terminal": "文冲",
             "color": "#c5003e",
             "isTextWhite": true,
-            "stops": 7
+            "passbyStops": 7
         },
         {
             "lineNum": "4",
@@ -48,7 +48,7 @@
             "terminal": "南沙客运港",
             "color": "#00843d",
             "isTextWhite": true,
-            "stops": 4
+            "passbyStops": 4
         }
     ]
 }

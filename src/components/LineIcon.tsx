@@ -17,7 +17,7 @@ export default function LineIcon(props: {lineNum: string, isTextWhile?: boolean,
     }
 
     return (
-        <Icon viewBox="0 0 20 20" w='1.5em' h='1.5em'>
+        <Icon viewBox="0 0 20 20" w='1.25em' h='1.25em'>
             <path d="M2 0.5H18C18.8284 0.5 19.5 1.17157 19.5 2V18C19.5 18.8284 18.8284 19.5 18 19.5H2C1.17157 19.5 0.5 18.8284 0.5 18V2C0.5 1.17157 1.17157 0.5 2 0.5Z" fill={props.color} stroke="black"/>
             {wordText}
         </Icon>

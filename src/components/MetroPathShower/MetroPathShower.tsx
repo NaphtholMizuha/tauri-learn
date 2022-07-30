@@ -21,13 +21,13 @@ export default function(props: {path: MetroPath}) {
                     if (!item) {
                         return (<Divider />)
                     }
-                    else if ("stops" in item) {
+                    else if ("passbyStops" in item) {
                         return (<DirectionShower lineName={item.lineName}
                                                 lineNum={item.lineNum}
                                                 isTextWhite={item.isTextWhite}
                                                 color={item.color}
                                                 terminal={item.terminal}
-                                                stops={item.stops}
+                                                passbyStops={item.passbyStops}
                                 />)
                     } else{
                         return (<TransferShower lineNum={item.lineNum}
